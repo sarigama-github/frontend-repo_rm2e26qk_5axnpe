@@ -1,20 +1,23 @@
 import { motion } from 'framer-motion'
+import hobbiesData from '../data/hobbies.json'
 import { BookOpen, Music, Dumbbell } from 'lucide-react'
 
-const hobbies = [
-  { icon: Dumbbell, name: 'Sports', desc: 'Staying active to refresh the mind.' },
-  { icon: BookOpen, name: 'Reading', desc: 'Exploring ideas and stories.' },
-  { icon: Music, name: 'Music', desc: 'Relaxing playlists for focus.' },
-]
+const ICONS = {
+  dumbbell: Dumbbell,
+  book: BookOpen,
+  music: Music
+}
 
 export default function Hobbies() {
+  const hobbies = hobbiesData
+
   return (
     <section id="hobbies" className="py-16">
       <div className="mx-auto max-w-6xl px-4">
         <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-6">Hobbies</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {hobbies.map((h, i) => {
-            const Icon = h.icon
+            const Icon = ICONS[h.icon] || BookOpen
             return (
               <motion.div
                 key={i}

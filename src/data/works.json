@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Behavior Notes",
+    "desc": "A short write-up exploring decision-making and motivation.",
+    "link": "#",
+    "file": "#",
+    "image": {
+      "alt": "Behavior notes cover",
+      "src": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&q=80&w=600",
+      "srcset": [
+        {
+          "w": 360,
+          "url": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&q=80&w=360"
+        },
+        {
+          "w": 600,
+          "url": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "w": 900,
+          "url": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?auto=format&fit=crop&q=80&w=900"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Campus Project",
+    "desc": "Collaborative project focusing on research and communication.",
+    "link": "#",
+    "file": "#",
+    "image": {
+      "alt": "Team project preview",
+      "src": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=600",
+      "srcset": [
+        { "w": 360, "url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=360" },
+        { "w": 600, "url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=600" },
+        { "w": 900, "url": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=900" }
+      ]
+    }
+  },
+  {
+    "title": "Design Exercise",
+    "desc": "Simple UI concepts with soft colors and clean layout.",
+    "link": "#",
+    "file": "#",
+    "image": {
+      "alt": "UI mockups",
+      "src": "https://images.unsplash.com/photo-1587614203976-365c74645e83?auto=format&fit=crop&q=80&w=600",
+      "srcset": [
+        { "w": 360, "url": "https://images.unsplash.com/photo-1587614203976-365c74645e83?auto=format&fit=crop&q=80&w=360" },
+        { "w": 600, "url": "https://images.unsplash.com/photo-1587614203976-365c74645e83?auto=format&fit=crop&q=80&w=600" },
+        { "w": 900, "url": "https://images.unsplash.com/photo-1587614203976-365c74645e83?auto=format&fit=crop&q=80&w=900" }
+      ]
+    }
+  }
+]

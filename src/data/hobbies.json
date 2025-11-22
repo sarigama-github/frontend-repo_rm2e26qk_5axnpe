@@ -1,0 +1,5 @@
+[
+  { "icon": "dumbbell", "name": "Sports", "desc": "Staying active to refresh the mind." },
+  { "icon": "book", "name": "Reading", "desc": "Exploring ideas and stories." },
+  { "icon": "music", "name": "Music", "desc": "Relaxing playlists for focus." }
+]

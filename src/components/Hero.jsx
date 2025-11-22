@@ -12,9 +12,13 @@ export default function Hero() {
         >
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?q=80&w=480&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&q=80&w=480"
+              srcSet="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&q=80&w=240 240w, https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&q=80&w=480 480w, https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&q=80&w=720 720w"
+              sizes="(min-width: 768px) 288px, 160px"
               alt="Profile"
               className="h-40 w-40 md:h-72 md:w-72 rounded-full object-cover border-4 border-white shadow-lg"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#9AC5E8]/30 to-[#EDE7DB]/30 mix-blend-overlay" />
           </div>
